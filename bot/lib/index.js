@@ -13,6 +13,7 @@ const init = async () => {
             fs.rmSync(`${__dirname}/../playlist/${filename}`)
         }
     }
+    require("./player")
 }
 
 init()
